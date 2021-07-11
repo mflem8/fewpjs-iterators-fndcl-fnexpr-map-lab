@@ -12,5 +12,8 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
-}
+  // let capitalized = tutorials.map(x => x.charAt(0).toUpperCase() + x.slice(1))
+  let capitalized = tutorials.map(function(x) {
+    return x.charAt.toUpperCase() + x.slice(1);
+  })
+  };
